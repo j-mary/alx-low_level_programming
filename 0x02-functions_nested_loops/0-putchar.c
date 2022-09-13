@@ -1,22 +1,24 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
- * main -Entry point
+ * main - main function
+ *
+ * Description: It prints the word _putchar to stdout, followed by a new line
  *
  * Return: Always 0 (Success)
  */
 
 int main(void)
 {
-	putchar('_');
-	putchar('p');
-	putchar('u');
-	putchar('t');
-	putchar('c');
-	putchar('h');
-	putchar('a');
-	putchar('r');
-	putchar('\n');
+	char words[8] = "_putchar";
+	int i;
+
+	for (i = 0; i < 8; i++)
+	{
+		_putchar(words[i]);
+	}
+
+	_putchar('\n');
 
 	return (0);
 }
