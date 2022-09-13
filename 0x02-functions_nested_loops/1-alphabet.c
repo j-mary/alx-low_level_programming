@@ -1,24 +1,13 @@
 #include "main.h"
 
 /**
- * main - main function
+ * print_alphabet - Check description
  *
- * Description: It prints the word _putchar to stdout, followed by a new line
- *
- * Return: Always 0 (Success)
+ * Description: It prints the alphabets in lower case, followed by a new line
  */
 
 int main(void)
 {
-	char words[26] = "abcdefghijklmnopqrstuvwxyz";
-	int i;
-
-	for (i = 0; i < 26; i++)
-	{
-		_putchar(words[i]);
-	}
-
-	_putchar('\n');
-
+	print_alphabet();
 	return (0);
 }
