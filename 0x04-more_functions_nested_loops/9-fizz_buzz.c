@@ -1,11 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - Check Description
+ * main - Entry point
  *
- * Description: It prints 1 to 100, replaces mulitples of 3 with Fizz,
- * and multiples of 5 with Buzz
- * Return: Always 0.
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
@@ -23,22 +21,13 @@ int main(void)
 		}
 		else if (i % 5 == 0)
 		{
-			if (i < 100)
-			{
-				printf("Buzz ");
-			}
-			else
-			{
-				printf("Buzz");
-			}
+			printf("Buzz ");
 		}
 		else
 		{
 			printf("%d ", i);
 		}
-
-		printf("\n");
 	}
-
+	printf("\n");
 	return (0);
 }
